@@ -37,6 +37,14 @@
     padding-left: 15px;
 }
 
+.visually-hidden {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
 .todo__input {
     border-color: transparent;
     padding: 15px;
@@ -133,4 +141,5 @@
 
 .todo__list li span:hover {
     background-color: #f1f1f1;
+    border-radius: 50%;
 }

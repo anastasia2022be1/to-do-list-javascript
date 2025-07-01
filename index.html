@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>TODO List</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="todo">
-        <div class="todo__box">
-            <h2 class="todo__title">My Todo</h2>
-            <div class="todo__row">
-                <input type="text" class="todo__input" placeholder="Add a new task...">
-                <button class="todo__add-btn">Add</button>
-            </div>
-
-            <ul class="todo__list">
-
-            </ul>
+      <div class="todo__box">
+        <h2 class="todo__title">My Todo</h2>
+        <div class="todo__row">
+          <label for="todoInput" class="visually-hidden">Add task</label>
+          <input
+            id="todoInput"
+            type="text"
+            class="todo__input"
+            placeholder="Add a new task..."
+            aria-label="Add new task"
+          />
+          <button class="todo__add-btn">Add</button>
         </div>
+
+        <ul class="todo__list"></ul>
+      </div>
     </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
