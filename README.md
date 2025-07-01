@@ -12,6 +12,12 @@ It allows users to add tasks, mark them as completed, delete tasks, and saves ev
 
 ---
 
+## Cheat Sheet
+
+[JavaScript Cheat Sheet](./TODO-cheatsheet.md)
+
+---
+
 ## Features
 
 - Add new tasks
@@ -30,7 +36,7 @@ It allows users to add tasks, mark them as completed, delete tasks, and saves ev
 
 ---
 
-## 🧪 How to Run Locally
+## How to Run Locally
 
 ```
 git clone https://github.com/your-username/todo-list.git
